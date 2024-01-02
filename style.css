@@ -1,0 +1,17 @@
+.featurecard2 {
+  background-color: #181c2e;
+}
+
+.moveImage {
+  animation: 10s infinite linear moveImageUp;
+}
+
+@keyframes moveImageUp {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -50%;
+  }
+}
